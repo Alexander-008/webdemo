@@ -1,0 +1,138 @@
+
+.brand_banner{
+    /*height:25rem;*/
+    width: 100%;
+    /*background-image: url("img/contactbanner.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size:cover;*/
+}
+.concat{
+    padding: 5rem 0 8.4375rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/bg.png);
+}
+.concat .concat_us>div{
+    height:500px;
+    width: 100%;
+    border: 1px solid hotpink;
+}
+.contact_us {
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url(../img/bg.png);
+}
+.contact_us h3{
+    font-size: 1.5rem;
+    color: #0a3b95;
+    margin-bottom: 4.625rem;
+}
+/*弹性布局*/
+.contact_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact_list_li{
+    width: 32%;
+    background: #ffffff;
+    border: 0.0625rem solid #e5e5e5;
+    padding: 4rem 0 5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.875rem 0.5625rem -0.625rem rgba(0, 0, 0, 0.1);
+}
+.contact_list_li img{
+    display: block;
+    width: 2.9375rem;
+    height: 3.1875rem;
+    color: #0a3b95;
+    margin: 0 auto;
+    font-size: 3.1875rem;
+}
+.contact_list_li h4 {
+    font-size: 1.375rem;
+    color: #0a3b95;
+    margin: 2rem 0;
+}
+.contact_list_li p {
+    font-size: 1.125rem;
+    color: #333333;
+    margin-bottom: 0;
+}
+.brand_right ul {
+    padding: 1.625rem 0 1.625rem 17.5rem;
+}
+.brand_right ul li {
+    position: relative;
+    display: inline-block;
+    line-height: 3rem;
+    margin-right: 5rem;
+}
+.brand_right ul .active:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0.5rem solid;
+    border-color: #0a3b95 transparent transparent transparent;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.brand_right ul .active a {
+    font-weight: bold;
+    color: #0a3b95;
+}
+.brand_right ul .active:after {
+    content: '';
+    position: absolute;
+    bottom: -0.8125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0.5rem solid;
+    border-color: white transparent transparent transparent;
+}
+.brand_right ul li:last-child {
+    margin-right: 0;
+}
+.concat .container h3{
+    font-size:1.3rem;
+    color:#333333;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.concat .container p{
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.875rem;
+    margin-bottom: 3.375rem
+}
+.colorfont{
+    background-color:#0a3b95;
+    color:#0a3b95;
+}
+.brand_img > img {
+    width: 28.75rem;
+    margin-left:0.2rem;
+}
+@media (min-width: 320px) and (max-width: 750px) {
+    .brand_nav ul li{
+        margin-right: 5rem;
+    }
+    .contact_list{
+        flex-direction: column;
+    }
+    .contact_list_li{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .brand_nav_intro{
+        display: none;
+    }
+    .brand_nav ul {
+        width: max-content;
+        padding: 1.625rem 0;
+        overflow-x: auto;
+    }
+}

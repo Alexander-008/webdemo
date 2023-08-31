@@ -1,0 +1,144 @@
+
+.brand_banner{
+    /*height:25rem;*/
+    width: 100%;
+    /*background-image: url("img/contactbanner.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size:cover;*/
+}
+.subscribe {
+    padding: 4.25rem 0 6.25rem;
+    background-image: url(../img/bg.png);
+}
+.schedule {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/bg.png);
+    padding: 5.625rem 0;
+}
+.subscribe_content {
+    position: relative;
+    /*width: 93%;*/
+    background: #ffffff;
+    padding: 2.8125rem 3.4375rem 4.1875rem;
+    box-shadow: 0 0rem 0.5rem 0rem rgba(0, 0, 0, 0.1);
+}
+.subscribe_content_right {
+    position: absolute;
+    right: 5.9375rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24.5rem;
+    text-align: center;
+}
+.subscribe_content h3 {
+    font-size: 1.5rem;
+    color: #0a3b95;
+    margin-bottom: 2.875rem;
+}
+.subscribe_content_item {
+    position: relative;
+    margin-bottom: 2.625rem;
+}
+.subscribe_content_item_code {
+    position: relative;
+}
+.subscribe_content h3 {
+    font-size: 1.5rem;
+    color: #0a3b95;
+    margin-bottom: 2.875rem;
+}
+.subscribe_content_item label {
+    display: inline-block;
+    width: 6.375rem;
+    line-height: 3.75rem;
+    font-size: 1.125rem;
+    color: #666666;
+}
+.subscribe_content_item input {
+    display: inline-block;
+    width: 24.375rem;
+    line-height: 3.625rem;
+    border: 0.0625rem solid #999;
+    padding-left: 0.9375rem;
+    font-size: 1.125rem;
+    outline: none;
+}
+.subscribe_content_item p {
+    display: none;
+    position: absolute;
+    left: 6.75rem;
+    bottom: -1.625rem;
+    color: #ff0000;
+    font-size: 0.875rem;
+}
+.subscribe_content_item label i {
+    color: #ff0000;
+}
+.subscribe_content_right_img {
+    width: 19.875rem;
+    height: 19.875rem;
+    margin: 0 auto 1.625rem;
+    border: 1.25rem solid #17479e;
+}
+.subscribe_content_right_img img {
+    width: 17.375rem;
+}
+.subscribe_content_submit {
+    margin: 4.25rem 0 4.125rem 6.25rem;
+}
+.subscribe_content_submit button {
+    display: inline-block;
+    width: 10rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.125rem;
+    background: #17479e;
+    margin-right: 1.875rem;
+    border: 0;
+}
+.subscribe_content_submit span {
+    font-size: 1rem;
+    color: #17479e;
+}
+.subscribe_content_item_code_verify {
+    position: absolute;
+    top: 0;
+    left:35rem;
+    height:3.7rem;
+    width: 7rem;
+    /*border: 1px solid hotpink;*/
+    background-image: url("../img/daohangtu/true.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+@media (min-width: 320px) and (max-width:820px) {
+
+    .brand_nav ul li {
+        margin-right: 5rem;
+    }
+
+    .subscribe_content {
+        padding: 2.8125rem 3.4375rem;
+    }
+
+    .brand_nav_intro {
+        display: none;
+    }
+    .subscribe_content_right {
+        position: static;
+        transform: none;
+        width: 100%;
+    }
+
+    .subscribe_content_item input {
+        width: 100%;
+    }
+
+    .subscribe_content_item_code_verify {
+        position: static;
+        margin-top: 2rem
+    }
+}
